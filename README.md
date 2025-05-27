@@ -63,12 +63,6 @@ VITE_API_TIMEOUT=5000
 
 ```
 
-Pour le développement, vous pouvez copier le fichier `.env.example` :
-
-```bash
-cp .env.example .env
-```
-
 > ⚠️ **Important** : Ne jamais commiter le fichier `.env` dans le repository. Assurez-vous qu'il est bien dans votre `.gitignore`.
 
 ## 🎯 Fonctionnalités Principales
