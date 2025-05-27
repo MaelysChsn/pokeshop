@@ -2,7 +2,6 @@ import React, {useState, useEffect} from 'react';
 import type {Pokemon} from '../types/pokemon';
 import type {ApiList} from '../types/api';
 import PokemonService from '../api/pokemonService';
-import type { UsePokemonsReturn } from '../types/hooks';    
 
 /**
  * Options pour fetch PokemonList
