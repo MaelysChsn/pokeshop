@@ -1,0 +1,20 @@
+.pokemon-list-container {
+  max-width: 1280px;
+}
+
+.pokemon-grid {
+  display: flex;
+  justify-content: center;
+  min-width: calc(33.333% - 16px);
+}
+
+.pokemon-card-container {
+  width: 100%;
+  max-width: 100%;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+} 

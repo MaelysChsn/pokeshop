@@ -1,0 +1,28 @@
+.filter-dropdown {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.filter-option {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px;
+}
+
+.type-indicator {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+/* Styles pour les états sélectionnés */
+.filter-option[data-selected="true"] {
+    background-color: var(--mantine-color-blue-6);
+    color: white;
+}
+
+.filter-input[data-selected="true"] {
+    background-color: var(--mantine-color-blue-6);
+    color: white;
+} 

@@ -1,0 +1,27 @@
+.pokemon-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  min-height: 500px;
+}
+
+.quantity-input {
+  width: 80px;
+  text-align: center;
+}
+
+.ability-badge {
+  text-transform: capitalize;
+  font-size: 0.9rem;
+  padding: 8px 12px;
+  border-radius: 20px;
+  background-color: #f1f3f5;
+  color: #495057;
+  transition: all 0.2s ease;
+}
+
+.ability-badge:hover {
+  background-color: #e9ecef;
+  transform: translateY(-1px);
+} 

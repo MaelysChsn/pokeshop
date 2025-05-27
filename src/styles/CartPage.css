@@ -1,0 +1,40 @@
+/* Styles pour le panier vide */
+.empty-cart-icon {
+    background-color: #f8f9fa;
+    border-radius: 50%;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styles pour la modal de confirmation */
+.modal-root {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+}
+
+.modal-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.modal-content {
+    position: relative;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.modal-title {
+    font-size: 24px;
+    font-weight: bold;
+} 
